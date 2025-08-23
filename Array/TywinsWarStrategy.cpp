@@ -22,7 +22,7 @@ public:
     int minSoldiers(vector<int>& arr, int k) {
         int n = arr.size();
         int lucky = 0;
-        int need = (n + 1) / 2; // ceil(n/2)
+        int need = (n + 1) / 2; 
         vector<int> costs;
 
         for (int i = 0; i < n; i++) {
